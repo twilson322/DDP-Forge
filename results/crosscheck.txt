@@ -1,0 +1,23 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+cartpole           IPOPT cold   108.4952 (80 it, 3.40 s)
+cartpole_bounded   IPOPT cold   108.5968 (185 it, 5.38 s)
+acrobot_bounded    IPOPT cold    75.9951 (146 it, 14.43 s)
+quad2d_free        IPOPT cold    19.2905 (16 it, 0.87 s)
+quad2d_obstacles   IPOPT cold    22.9163 (36 it, 1.33 s)
+            problem solver   C++ cost  IPOPT warm-started at C++ solution  IPOPT iterations (warm)  relative gap  IPOPT from naive guess  IPOPT time naive [s]  IPOPT ok
+0          cartpole   ilqr  114.64836                           108.49516                       61       0.05671               108.49516               3.40055      True
+1          cartpole    ddp  108.49516                           108.49516                        1       0.00000               108.49516               3.40055      True
+2  cartpole_bounded   ilqr  114.67607                           108.59680                       58       0.05598               108.59680               5.38441      True
+3  cartpole_bounded    ddp  108.59680                           108.59680                        8      -0.00000               108.59680               5.38441      True
+4   acrobot_bounded   ilqr   75.99514                            75.99507                        7       0.00000                75.99507              14.42666      True
+5   acrobot_bounded    ddp   75.99507                            75.99507                        7       0.00000                75.99507              14.42666      True
+6       quad2d_free   ilqr   19.29049                            19.29049                       11       0.00000                19.29049               0.87056      True
+7       quad2d_free    ddp   19.29049                            19.29049                       11       0.00000                19.29049               0.87056      True
+8  quad2d_obstacles   ilqr   20.49570                            20.49570                       13       0.00000                22.91631               1.33350      True
+9  quad2d_obstacles    ddp   20.49570                            20.49570                       13       0.00000                22.91631               1.33350      True

@@ -1,0 +1,15 @@
+cartpole               ilqr  converged=0 iters=1000 outer= 1 cost=  114.6484 viol=0.0e+00 time=   236.2 ms
+cartpole               ddp   converged=1 iters=136 outer= 1 cost=  108.4952 viol=0.0e+00 time=   172.2 ms
+cartpole_bounded       ilqr  converged=0 iters=1000 outer=12 cost=  114.6761 viol=3.3e-03 time=   208.0 ms
+cartpole_bounded       ddp   converged=1 iters=159 outer= 2 cost=  108.5968 viol=4.9e-06 time=   202.4 ms
+acrobot_bounded        ilqr  converged=1 iters=433 outer= 1 cost=   75.9951 viol=0.0e+00 time=   149.0 ms
+acrobot_bounded        ddp   converged=1 iters=159 outer= 1 cost=   75.9951 viol=0.0e+00 time=   368.8 ms
+quad2d_free            ilqr  converged=1 iters= 10 outer= 2 cost=   19.2905 viol=8.3e-07 time=     2.7 ms
+quad2d_free            ddp   converged=1 iters= 12 outer= 2 cost=   19.2905 viol=8.9e-07 time=    20.3 ms
+quad2d_obstacles       ilqr  converged=1 iters= 23 outer= 4 cost=   20.4957 viol=9.9e-07 time=     6.3 ms
+quad2d_obstacles       ddp   converged=1 iters= 31 outer= 4 cost=   20.4957 viol=1.3e-06 time=    55.5 ms
+mpc tvlqr  iters= 1 done
+mpc mpc    iters= 1 done
+mpc mpc    iters= 2 done
+mpc mpc    iters= 5 done
+mpc mpc    iters=50 done

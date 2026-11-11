@@ -1,0 +1,11 @@
+problem,algo,converged,iterations,outer,cost,max_violation,time_ms,ms_per_iter
+cartpole,ilqr,0,1000,1,114.648355,0.000e+00,236.21,0.236
+cartpole,ddp,1,136,1,108.495157,0.000e+00,172.18,1.266
+cartpole_bounded,ilqr,0,1000,12,114.676068,3.341e-03,207.96,0.208
+cartpole_bounded,ddp,1,159,2,108.596798,4.877e-06,202.38,1.273
+acrobot_bounded,ilqr,1,433,1,75.995144,0.000e+00,149.01,0.344
+acrobot_bounded,ddp,1,159,1,75.995073,0.000e+00,368.83,2.320
+quad2d_free,ilqr,1,10,2,19.290486,8.350e-07,2.67,0.267
+quad2d_free,ddp,1,12,2,19.290486,8.938e-07,20.33,1.694
+quad2d_obstacles,ilqr,1,23,4,20.495696,9.928e-07,6.29,0.273
+quad2d_obstacles,ddp,1,31,4,20.495696,1.295e-06,55.50,1.790
